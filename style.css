@@ -1,0 +1,94 @@
+/* red B83A2D
+green 4E6851 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display';
+}
+
+h1{
+    color: #DCE2C8;
+    font-size: 50px;
+}
+
+body{
+    background-image: url(https://images.alphacoders.com/102/thumb-1920-1026345.jpg);
+   /* background-color: #DCC9A9; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease;
+}
+
+header{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.topline{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    height: 2.3rem;
+}
+
+#theme{
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    border: none;
+    width: 7rem;
+    background-color: rgb(248, 233, 236);
+}
+
+.timer{
+    display: flex;
+    height: 50vh;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    font-size: 120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#start{
+    margin-top: 0.5rem;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 700;
+    width: 12rem;
+    height: 3.3rem;
+    border-radius: 10%;
+    border: 2px solid transparent;
+}
+
+#start:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid ;
+}
+
+#reset{
+    font-size: 2.7rem;
+    color: white;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#resetbtn{
+    background-color: transparent;
+    border: none;
+}
